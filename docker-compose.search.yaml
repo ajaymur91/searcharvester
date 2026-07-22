@@ -19,7 +19,7 @@ services:
     logging:
       driver: "json-file"
       options:
-        max-size: "1m"
+        max-size: "10m"
         max-file: "1"
 
   searxng:
@@ -37,7 +37,7 @@ services:
     logging:
       driver: "json-file"
       options:
-        max-size: "1m"
+        max-size: "10m"
         max-file: "1"
 
   tavily-adapter:
@@ -62,7 +62,7 @@ services:
     logging:
       driver: "json-file"
       options:
-        max-size: "1m"
+        max-size: "10m"
         max-file: "1"
 
 networks:
